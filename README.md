@@ -187,3 +187,8 @@ so we keep the left and right to fixed width and center to adjustable one
 flex: 1 for adjusting the center tab
 
 ------------------------------------------------------------------------------------------------------------------------
+box-shadow: what all property do we need to check those
+
+------------------------------------------------------------------------------------------------------------------------
+
+margin-left: -1: negative margin substracts the space and pulls the element to that side
