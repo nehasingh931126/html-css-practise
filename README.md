@@ -217,5 +217,36 @@ and also whenever we see any element at the top of other element  that is by the
 
 Css position add another dimension to your page
 
-https://www.youtube.com/watch?v=G3e-cpL7ofc&t=11717s
 
+static is the Default layout to be applied
+Position Fixed is a way of fixing the Header to the top 
+and there are top bottom lift and right that you need to set if we need the change in size of the Header
+
+top: 0 : 0 px with the top of the browser window
+How far our element is from window
+let: 0 How much is the edge form the left of the window
+
+A special feature of this property is that if we set it in opposite directions the element will stretch
+
+
+
+but if not hieght and width can be added 
+
+To have good distance between the other content and header then you can add the body with padding-top
+
+----------------------------------------------------------------------------------------------------------------------
+Lesson 15:
+Position Absolutr and Position Relative
+
+
+Position fix position the element into the browser
+Position Absolute position the element on the page
+
+
+
+
+
+
+
+
+https://www.youtube.com/watch?v=G3e-cpL7ofc&t=11717s
