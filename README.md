@@ -113,6 +113,22 @@ A grid is a layout that has Rows and Column
 One Row two Column layout
 
 ![Grid with one by two layout](/asset/learning/grid-layout.png)
+
+If the div is placed in the grid it takes the entire column instead
+
+Grids makes the alignment much better and also doesnot take the space that inline-block takes
+![Grid example](/asset/learning/grid-example.png)
+
+
+If we have more elements then the columns we specify in the grid-template-columns: 100px 100px 200px, it starts to wrap around and create new rows
+![Grid with extra row](/asset/learning/grid-with-extra-div.png)
+
+
+grid-template-columns: 100px 1fr: fr: basically says to take the remaining space in the grid
+
+One more feature of the grid system
+grid-template-columns: 100px 1fr 2fr
+the free space work in the form of the ratio 
 ------------------------------------------------------------------------------------------------------------------------
 
 
