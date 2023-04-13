@@ -77,23 +77,33 @@ margin-bottom is the css property
 ------------------------------------------------------------------------------------------------------------------------
 This project is using the Google font called roboto
 You can use the external font or css. To add this to your project you can add it to the headers
+
 ------------------------------------------------------------------------------------------------------------------------
+
 This syntax with a comma is called a font stack. This is the Backup in case we donot have roboto font family then it will take Arial
+
 Basically let us setup the backup font by any reason the roboto fail to load from google then Arial will be loaded
 font-family: Roboto, Arial;
+
 ------------------------------------------------------------------------------------------------------------------------
+
 Why we have this css Class?
 line-height: 18px;
 To change space between the lines 
+
 ------------------------------------------------------------------------------------------------------------------------
+
 Have a look into the computed tab in the Developers tool
+
 ------------------------------------------------------------------------------------------------------------------------
-TO remove the defualt margin from the p elements top and bottom margin is kept to 0
+
+To remove the defualt margin from the p elements top and bottom margin is kept to 0
 p {
     font-family: Roboto, Arial;
     margin-top: 0;
     margin-bottom: 0;
 }
+
 ------------------------------------------------------------------------------------------------------------------------
 New Lesson : Css  Grid
 This helps making the horizontal layout and also the grid like youtube pages much easier
