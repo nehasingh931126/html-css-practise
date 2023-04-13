@@ -57,6 +57,33 @@ How you can get rid of the margin
 }
 ```
 
+------------------------------------------------------------------------------------------------------------------------
+What if you need to make the image round, rounded corners?
+border-radius is the css property for it 
+```
+.profile-picture {
+    width: 40px;
+    border-radius: 50px;
+}
+```
+------------------------------------------------------------------------------------------------------------------------
+To add the margin on the bottom?
+margin-bottom is the css property
+```
+.thumnail-row {
+    margin-bottom: 12px
+}
+```
+------------------------------------------------------------------------------------------------------------------------
+This project is using the Google font called roboto
+You can use the external font or css. To add this to your project you can add it to the headers
+------------------------------------------------------------------------------------------------------------------------
+This syntax with a comma is called a font stack. This is the Backup in case we donot have roboto font family then it will take Arial
+Basically let us setup the backup font by any reason the roboto fail to load from google then Arial will be loaded
+font-family: Roboto, Arial;
+------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
