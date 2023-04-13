@@ -143,9 +143,39 @@ grid-template-columns: 100px 1fr 2fr the free space work in the form of the rati
 
 Remember : Spacing Inside is called padding
 
-
 ------------------------------------------------------------------------------------------------------------------------
 
 if we have extra divs in the grid it starts wrapping in the next row
+
+------------------------------------------------------------------------------------------------------------------------
+
+Flexbox:
+Another way of creating the Layouts is using flexbox
+Flexbox is similar to css grid(but its more flexible)
+
+Flexbox is very flexible one and have a horizontal alignment 
+
+flex: 1 is equivalent to 1fr in the grid system
+
+Similar to the fr in the column we have flex in the flexbox
+
+
+What is the difference between the grid and flex
+The Grid is more rigid because first we need to define the columns and then we add the columns
+But with the flexbox the flex  is been given to the divs, elements take there width along with them if they are moving
+around and this helps in flexible layouts depending on how many elements we have and what order they are in.
+
+That is the biggest different between the grid: rigid and flex box: flexible
+
+What is the advantage of having the flexible layout
+Where we need flexible layout depending on our content
+
+justify-content: start: A property of flexbox if given the valid of start it will start from the left side
+justify-content: end;
+justify-content: center
+
+align-items: end
+This is to align the divs or containers horizontally in the main container: values can be start end and center
+------------------------------------------------------------------------------------------------------------------------
 
 
