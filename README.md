@@ -137,8 +137,8 @@ If we have more elements then the columns we specify in the grid-template-column
 grid-template-columns: 100px 1fr: fr: basically says to take the remaining space in the grid
 
 One more feature of the grid system
-grid-template-columns: 100px 1fr 2fr
-the free space work in the form of the ratio 
+grid-template-columns: 100px 1fr 2fr the free space work in the form of the ratio 
+
 ------------------------------------------------------------------------------------------------------------------------
 
 
