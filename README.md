@@ -174,6 +174,8 @@ justify-content: start: A property of flexbox if given the valid of start it wil
 justify-content: end;
 justify-content: center
 
+Look it into all the different values
+
 align-items: end
 This is to align the divs or containers horizontally in the main container: values can be start end and center
 
@@ -192,3 +194,28 @@ box-shadow: what all property do we need to check those
 ------------------------------------------------------------------------------------------------------------------------
 
 margin-left: -1: negative margin substracts the space and pulls the element to that side
+
+
+flex-shrink: 0: this is the property of flex which doesnot allow the shrinking
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+width: 0
+Normally the input box has some width but to not have that width you can keep the width to 0
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+css position: 
+
+Why Position
+Keep the header at the top of page when we scroll
+keep the side bar at the top of the page
+and also whenever we see any element at the top of other element  that is by the help of the css position
+
+
+Css position add another dimension to your page
+
+https://www.youtube.com/watch?v=G3e-cpL7ofc&t=11717s
+
