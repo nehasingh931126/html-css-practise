@@ -141,7 +141,11 @@ grid-template-columns: 100px 1fr 2fr the free space work in the form of the rati
 
 ------------------------------------------------------------------------------------------------------------------------
 
+Remember : Spacing Inside is called padding
 
 
+------------------------------------------------------------------------------------------------------------------------
+
+if we have extra divs in the grid it starts wrapping in the next row
 
 

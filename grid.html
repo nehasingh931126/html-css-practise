@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grid Practise</title>
   </head>
-  <body>
+  <body style="padding-bottom: 1000px;">
     <div style="display: grid; grid-template-columns: 100px 100px">
       <div style="background-color: lightblue">Div 1</div>
       <div style="background-color: lightpink">
@@ -49,6 +49,37 @@
       </div>
       <div style="background-color: lightblue">
         2fr: this will take 2/3 of the remaining space
+      </div>
+    </div>
+
+    <div style="margin-top:30px;"> Requirement three column of Equal Size</div>
+    <div style="margin-top:30px; display: grid; grid-template-columns: 1fr 1fr 1fr">
+      <div style="background-color: lightblue; height: 200px;">Grid 1: 1fr</div>
+      <div style="background-color: lightpink; height: 200px;">
+        Grid 2: 1fr
+      </div>
+      <div style="background-color: lightblue; height: 200px;">
+        Grid 3: 1fr
+      </div>
+    </div>
+
+    <div style="margin-top:30px;"> Adding the extra divs to is will start wrapping in the next row | adding column gap and row gap</div>
+    <div style="margin-top:30px; display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 20px; row-gap: 40px;">
+      <div style="background-color: lightblue; height: 200px;">Grid 1: 1fr</div>
+      <div style="background-color: lightpink; height: 200px;">
+        Grid 2: 1fr
+      </div>
+      <div style="background-color: lightblue; height: 200px;">
+        Grid 3: 1fr
+      </div>
+      <div style="background-color: lightpink; height: 200px;">
+        Grid 4: 1fr
+      </div>
+      <div style="background-color: lightblue; height: 200px;">
+        Grid 5: 1fr
+      </div>
+      <div style="background-color: lightpink; height: 200px;">
+        Grid 6: 1fr
       </div>
     </div>
     
