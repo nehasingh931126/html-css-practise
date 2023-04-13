@@ -176,6 +176,14 @@ justify-content: center
 
 align-items: end
 This is to align the divs or containers horizontally in the main container: values can be start end and center
+
 ------------------------------------------------------------------------------------------------------------------------
 
+How is the Header Designed?
+We see the left and right are having the same width if we are adjusting the screen size but as we are reducing the 
+screen size we see the search Bar that is the center div is adjusting and becoming small
 
+so we keep the left and right to fixed width and center to adjustable one
+flex: 1 for adjusting the center tab
+
+------------------------------------------------------------------------------------------------------------------------
