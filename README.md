@@ -82,6 +82,18 @@ This syntax with a comma is called a font stack. This is the Backup in case we d
 Basically let us setup the backup font by any reason the roboto fail to load from google then Arial will be loaded
 font-family: Roboto, Arial;
 ------------------------------------------------------------------------------------------------------------------------
+Why we have this css Class?
+line-height: 18px;
+To change space between the lines 
+------------------------------------------------------------------------------------------------------------------------
+Have a look into the computed tab in the Developers tool
+------------------------------------------------------------------------------------------------------------------------
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+------------------------------------------------------------------------------------------------------------------------
 
 
 
