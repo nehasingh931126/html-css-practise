@@ -88,13 +88,32 @@ To change space between the lines
 ------------------------------------------------------------------------------------------------------------------------
 Have a look into the computed tab in the Developers tool
 ------------------------------------------------------------------------------------------------------------------------
+TO remove the defualt margin from the p elements top and bottom margin is kept to 0
 p {
     font-family: Roboto, Arial;
     margin-top: 0;
     margin-bottom: 0;
 }
 ------------------------------------------------------------------------------------------------------------------------
+New Lesson : Css  Grid
+This helps making the horizontal layout and also the grid like youtube pages much easier
 
+Till now we are using display: inline-block and adding, adjusting the width to put the divs side by side 
+There are some problems with display: inline-block
+
+inline blocks have some alignment problems There are some spaces it takes that is adding the div to the next line
+
+Second problem its not vertically alligned
+
+
+New Technique is CSS GRID: THis give help us create perfectly aligned horzontal layouts
+
+What is A Grid?
+A grid is a layout that has Rows and Column
+One Row two Column layout
+
+![Grid with one by two layout](/asset/learning/grid-layout.png)
+------------------------------------------------------------------------------------------------------------------------
 
 
 
