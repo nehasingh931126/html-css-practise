@@ -238,9 +238,30 @@ To have good distance between the other content and header then you can add the 
 Lesson 15:
 Position Absolutr and Position Relative
 
+Position Absolute also takes the same value as fixed that is top, bottom, left, width
+Its like the position fixed
+but key difference: 
+fixed = placed in the browser window
+absolute = placed on the page
 
+
+Position Absoutle once the Page moves it will move with the page
 Position fix position the element into the browser
 Position Absolute position the element on the page
+
+The Element written below is going to appear in front of the Elements that are written above it we can overide this with 
+z-index:1
+
+The elements with higher z-index will apear in front 
+The one which has higher z-index will apear first 
+
+
+
+Position static always appear at the back
+
+
+
+----------------------------------------------------------------------------------------------------------------------
 
 
 

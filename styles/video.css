@@ -54,8 +54,21 @@
 
 .thumnail-row {
   margin-bottom: 12px;
+  position: relative;
 }
 
+.video-time {
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 10px;
+  font-family: roboto, arial;
+  font-size: 15px;
+  font-weight: 500;
+  right: 10px;
+  padding: 4px 4px 4px 4px;
+  border-radius: 4px;
+}
 
 
 .video-author {

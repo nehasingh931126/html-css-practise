@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar-left {
+  width: 200px;
+  position: fixed;
+  top: 0;
+  right: 200px; /* modify this value to push the left sidebar to the left */
+  bottom: 0;
+  background-color: lightpink;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+.sidebar-right {
+  width: 200px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: lightblue;
+}
+
+    </style>
+</head>
+<body>
+    
+
+
+<div class="container">
+  <div class="sidebar-left">
+    Content for the left sidebar goes here
+  </div>
+  <div class="sidebar-right">
+    Content for the right sidebar goes here
+  </div>
+</div>
+
+
+
+
+
+</body>
+</html>

@@ -6,6 +6,7 @@
     
     
     background-color: white;
+    
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(220, 220, 220);
@@ -16,6 +17,8 @@
     top: 0;
     left:0;
     right: 0;
+
+    z-index: 100;
 }
 
 
