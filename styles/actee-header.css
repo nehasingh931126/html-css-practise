@@ -35,19 +35,24 @@ body {
 
 .right-section {
   margin-right: 30px;
+  width: 200px;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .right-section a {
-  background-color: rgb(255, 151, 0);
-  font-size: 15px;
-  font-weight: 300;
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;  
+  background-color: rgb(255, 151, 0); 
   border-radius: 4px;
   color: white;
   text-decoration: none;
   border-color: rgb(61, 70, 80);
-  border-style: none;
+  display: block;
+  padding: 10px 40px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
 }
 
 .search-bar {
@@ -127,9 +132,22 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-right: 20px;
-  width: 130px;
+  width: 300px;
 }
 
+
+.games-tab__sortby {
+  background-color: white;
+  color: #768093;
+  font-size: 16px;
+  border: 1px solid #d8dcdc;
+  cursor: pointer;
+  font-weight: 300;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+  min-width: 200px;
+}
 /* --------------------------------------- */
 
 .games-cards-list {
@@ -213,6 +231,10 @@ body {
   height: 30px;
 }
 
+
+.games-tab__sortby {
+
+}
 /* ---------------------------- */
 
 .overlay-button {
@@ -232,3 +254,4 @@ body {
 .games-card__img_container:hover .overlay-button {
   opacity: 1;
 }
+
